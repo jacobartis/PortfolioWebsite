@@ -1,4 +1,4 @@
-namespace JacobPortfolio.Models;
+namespace PortfolioSite.Models;
 
 public class ErrorViewModel
 {

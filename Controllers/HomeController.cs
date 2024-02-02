@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using JacobPortfolio.Models;
+using PortfolioSite.Models;
 
-namespace JacobPortfolio.Controllers;
+namespace PortfolioSite.Controllers;
 
 public class HomeController : Controller
 {
