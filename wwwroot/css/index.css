@@ -1,45 +1,81 @@
-.project-container{
-    display:flex;
-    flex-direction:column;
-  }
-  .row{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-  }
-  
-  .box{
-    background:red;
-    color:white;
-    position:relative;
-    border-color:black;
-    flex-grow:1;
-    border-style: solid;
-    width:10%;
-  }
-  
-  .detail-button{
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    height:100%;
-    width:100%;
-    opacity:0;
-    transition: .5s ease;
-  }
-  
-  .detail-button:hover{
-    opacity:1;
-  }
-  
-  .detail-container{
-    background-color:#FFFDD0;
-    transition: .5s ease;
-  }
-  
-  .closed{
-    position:absolute;
-    top:-100px;
-  }
+body{
+  background-color: black;
+}
+
+.projects{
+  display:flex;
+  flex-flow:row wrap;
+  align-items: stretch;
+  align-content: stretch;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.project-button{
+  flex-grow: 1;
+  flex-shrink:1;
+  width: 20%;
+  height: 70%;
+  min-width: 200px;
+  min-height: 200px;
+  border: none;
+  background-color: rgba(255,255,255, 0.25);
+  border-radius: 10px;
+}
+
+.project-button:hover{
+  animation: toWhite 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes toWhite {
+  to {  background-color: rgba(255, 255, 255, 0.75)}  
+}
+
+.project-title{
+  position: relative;
+}
+
+.project-content{
+  justify-items: center;
+  position: relative;
+  margin: 5%;
+}
+
+.project-img{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-img>img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.intro{
+  position:relative;
+  display: flex;
+  align-items: center;
+  background: darkgray;
+  min-height: 100vh;
+}
+
+.intro > img{
+  position: absolute;
+  right: 3%;
+  width: 100%;
+  max-width: 200px;
+  z-index: 5;
+}
+
+.into-content{
+  position:absolute;
+  left:7%;
+  width: min(500px,100%);
+  z-index: 5;
+}
