@@ -4,11 +4,11 @@ using PortfolioSite.Models;
 
 namespace PortfolioSite.Controllers;
 
-public class HomeController : Controller
+public class ProjectsController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<ProjectsController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public ProjectsController(ILogger<ProjectsController> logger)
     {
         _logger = logger;
     }
@@ -18,11 +18,21 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult GoFish()
     {
         return View();
     }
-    
+
+    public IActionResult TimeAttack()
+    {
+        return View();
+    }
+
+    public IActionResult CADLanguage()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
