@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\PortfolioSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\GoFish.jpg",
+      "PackagePath": "staticwebassets\\GoFish.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\TimeAttack.png",
+      "PackagePath": "staticwebassets\\TimeAttack.png"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\project.css",
+      "PackagePath": "staticwebassets\\css\\project.css"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\site.css",

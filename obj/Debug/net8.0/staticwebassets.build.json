@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UtnP/mB55oMf16wjokeln8O8CzHDXG7Um6dHqvhIZ20=",
+  "Hash": "87aK93MAJdpiF2mdRd6BacP0wHxVokCKOmI0hVlbVZs=",
   "Source": "PortfolioSite",
   "BasePath": "_content/PortfolioSite",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\project.css",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "css/project.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\project.css"
+    },
+    {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\site.css",
       "SourceId": "PortfolioSite",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\GoFish.jpg",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "GoFish.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GoFish.jpg"
     },
     {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\jacob-img.jpg",
@@ -1250,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\TimeAttack.png",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "TimeAttack.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TimeAttack.png"
     }
   ]
 }
