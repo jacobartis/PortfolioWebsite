@@ -1,12 +1,109 @@
-body{
-  background-color: black;
+body, html{
+  height: 100%;
 }
 
-.projects{
+body{
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+header{
+  width: 100%;
+}
+
+.section{
+  position:relative;
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+  color: black;
+  overflow: hidden;
+}
+
+.hidden{
+  animation: fade-out .5s forwards;
+}
+
+@keyframes fade-out{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+.scroll-bar{
+  position:fixed;
+}
+
+.intro{
+  background-image: linear-gradient(
+    white,
+    gray,
+    black
+  );
+}
+
+.intro > img{
+  position: absolute;
+  right: 3%;
+  width: 100%;
+  max-width: 200px;
+  z-index: 5;
+}
+
+.bg{
+  position: fixed;
+  font-size: 2500%;
+  font-weight: bold;
+  color: transparent;
+  text-align: center;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top:25%;
+  background: url("../GoFish.jpg");
+  background-attachment: ;
+  z-index: 5;
+  height: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.intro-content{
+  left:7%;
+  width: min(500px,100%);
+  z-index: 5;
+  color: rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+  :not(.hidden){
+    animation: blur-in forwards 2.5s;
+  }
+}
+
+@keyframes blur-in{
+  0%{text-shadow: 0px 0px 1000px rgba(0, 0, 0, .25);}
+  50%{text-shadow: 0px 0px 7px rgba(0, 0, 0, .5);}
+  100%{text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);}
+}
+
+.about-me{
+  color:white;
+}
+
+.projects-container{
   display:flex;
   flex-flow:row wrap;
   align-items: stretch;
   align-content: stretch;
+  justify-content: space-evenly;
+  height: 50%;
   row-gap: 10px;
   column-gap: 10px;
 }
@@ -14,10 +111,10 @@ body{
 .project-button{
   flex-grow: 1;
   flex-shrink:1;
-  width: 20%;
-  height: 70%;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
   border: none;
   background-color: rgba(255,255,255, 0.25);
   border-radius: 10px;
@@ -42,6 +139,10 @@ body{
   margin: 5%;
 }
 
+.project-text{
+  text-wrap: wrap;
+}
+
 .project-img{
   width: 50%;
   height: 50%;
@@ -51,31 +152,8 @@ body{
 }
 
 .project-img>img{
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 10px;
   position: relative;
-}
-
-.intro{
-  position:relative;
-  display: flex;
-  align-items: center;
-  background: darkgray;
-  min-height: 100vh;
-}
-
-.intro > img{
-  position: absolute;
-  right: 3%;
-  width: 100%;
-  max-width: 200px;
-  z-index: 5;
-}
-
-.into-content{
-  position:absolute;
-  left:7%;
-  width: min(500px,100%);
-  z-index: 5;
 }
