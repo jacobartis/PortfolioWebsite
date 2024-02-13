@@ -63,3 +63,14 @@ window.scrollTo({
   behavior:"smooth"
 });
 
+window.addEventListener('load', function(){
+  scroll = -.2;
+  sections.forEach((sec)=>
+  sec.classList.remove('active'));
+  sections[0].classList.add('active');
+  window.scrollTo({
+    top:sections[0].offsetTop,
+    behavior:"smooth"
+  });
+  console.log(scroll);
+});
