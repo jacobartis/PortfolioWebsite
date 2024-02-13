@@ -29,12 +29,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg.jpg",
+      "PackagePath": "staticwebassets\\galaxy-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg.mp4",
+      "PackagePath": "staticwebassets\\galaxy-bg.mp4"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\jacob-img.jpg",
       "PackagePath": "staticwebassets\\jacob-img.jpg"
     },
     {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\index.js",
-      "PackagePath": "staticwebassets\\js\\index.js"
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\scrolling-bg.js",
+      "PackagePath": "staticwebassets\\js\\scrolling-bg.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
+      "PackagePath": "staticwebassets\\js\\section-scroll.js"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\site.js",
