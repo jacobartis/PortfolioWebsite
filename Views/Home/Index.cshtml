@@ -1,23 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
 <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700|Lato:400,700|Open+Sans:400,700|Nunito:400,700|Playfair+Display:400,700|Source+Sans+Pro:400,700|Poppins:400,700|Quicksand:400,700|Raleway:400,700&display=swap">
 
 <div class="intro section">
-    <div class="word-bg scroll-based"
-    scroll-classes = "exit"
-    scroll-value = 1.0
+    
+    <h1>Hi, I'm</h1>
+    <div class="word-bg scroll-based intro"
+    scroll-classes = "intro,exit"
+    scroll-value = 0,1,10
     section = 0>
         <h1>JACOB</h1>
     </div>
-    <div class="intro content">
-        <h1>Hi, my name is Jacob.</h1>
-        <p>I'm a passionate graduate developer <br> dedicated to creating cool software!</p>
+    <div class="intro wrapper scroll-based"
+    scroll-classes = "shown"
+    scroll-value = .5
+    section = 0>
+        <h2>A <span>passionate</span> graduate developer dedicated to creating cool software!</p>
     </div>
-    <img class="intro-img" src="jacob-img.jpg" alt="Picture of me.">
 </div>
 
 <div class="about-me section">
@@ -27,7 +30,7 @@
     section = 1>
         <h1>ABOUT ME</h1>
     </div>
-    <div class="content">
+    <div class="content title">
         <h1 
         scroll-value = .5
         section = 1>Who am I?</h1>
@@ -44,63 +47,93 @@
         <h1>PROJECTS</h1>
     </div>
     <div class="content">
-        <h1>What I've worked on?</h1>
-        <div class="projects-container">
-            <button class="project-button" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-                <h1 class="project-title">GoFish</h1>
-                <div class=project-content>
-                    <div class="project-img">
-                        <img src="GoFish.jpg" alt="GoFish project img">
-                    </div>
-                    <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
+        <div class="previous wrapper">
+            <h1 class="title">What I've worked on?</h1>
+            <p>A small selection of my previous projects</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                        <h1 class="project-title">GoFish</h1>
+                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
+                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
+                    </button>
+                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("TimeAttack","Projects")'"/>
+                        <h1 class="project-title">Time Attack</h1>
+                        <img img class="project-img" src="TimeAttack.png" alt="TimeAttack project img">
+                        <p class="project-text"><b>Final year project</b>, roguelike topdown shooter and extensive research into the gaming industry.</p>
+                    </button>
+                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                        <h1 class="project-title">GoFish</h1>
+                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
+                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
+                    </button>
                 </div>
+            </div>
+            <button class="explore-button" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
+                Explore More
             </button>
-
-            <button class="project-button" type="button" onclick="location.href='@Url.Action("TimeAttack","Projects")'"/>
-                <h1 class="project-title">Time Attack</h1>
-                <div class=project-content>
-                    <div class="project-img">
-                        <img src="TimeAttack.png" alt="TimeAttack project img">
-                    </div>
-                    <p class="project-text"><b>Final year project</b>, roguelike topdown shooter and extensive research into the gaming industry.</p>
+        </div>
+        <div class="current wrapper">
+            <h1 class="title">Current Interests</h1>
+            <ul>
+                <li>Web development</li>
+                <li>Web development</li>
+                <li>Web development</li>
+                <li>Web development</li>
+            </ul>
+        </div>
+        <div class="future wrapper">
+            <h1 class="title">My Current Projects</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                        <h1 class="project-title">GoFish</h1>
+                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
+                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
+                    </button>
+                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                        <h1 class="project-title">GoFish</h1>
+                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
+                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
+                    </button>
+                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                        <h1 class="project-title">GoFish</h1>
+                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
+                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
+                    </button>
+                    <div class="swiper-pagination"></div>
                 </div>
-            </button>
-            
-            <button class="project-button" type="button" onclick="location.href='@Url.Action("CADLanguage","Projects")'"/>
-                <h1 class="project-title">3D CAD Language</h1>
-                <div class=project-content>
-                    <p class="project-text"><b>Programming langauge for 3D CAD.</b></p>
-                </div>
+            </div>
+            <button class="explore-button" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
+                Explore All
             </button>
         </div>
     </div>
 </div>
 
-<div class="plans section">
+<div class="contact section">
     <div class="word-bg scroll-based"
     scroll-classes = "intro,exit"
     scroll-value = 0,1
     section = 3>
-        <h1>PLANS</h1>
-    </div>
-    <div class="content">
-        <h1>What I'm doing next</h1>
-    </div>
-</div>
-
-<div class="contact-info section">
-    <div class="word-bg scroll-based"
-    scroll-classes = "intro,exit"
-    scroll-value = 0,1
-    section = 4>
         <h1>CONTACT</h1>
     </div>
     
     <div class="content">
-        <h1>Get in touch</h1>
+        <h1 class="title">Like what you see?</h1>
+        <a class="cv-download" href="JacobArtis-CV.pdf" download="JacobArtis-CV.pdf">Take a memento</a>
+        <div class="wrapper">
+            <h1>Get in touch</h1>
+            <p>Email: JacobArtis7@gmail.com</p>
+            <p>Mobile: +44 7888 944345</p>
+            <h1>Other Places</h1>
+            <p>
+                <a class="link" href="https://www.linkedin.com/in/jacob-artis-556412229/">LinkedIn</a></br>
+                <a class="link" href="https://github.com/jacobartis">GitHub</a></br>
+                <a class="link" href="https://itch.io/profile/jacobartis">Itch.io</a>
+        </div>
     </div>
 </div>
 
-
 <script src="~/js/section-scroll.js" asp-append-version="true"></script>
-<script src="~/js/scrolling-bg.js" asp-append-version="true"></script>
+<script src="~/js/swiper.js" asp-append-version="true"></script>
