@@ -42,9 +42,9 @@ header{
   position:fixed;
 }
 
-.intro{
+.intro.section{
   background-image: linear-gradient(
-    white,
+    lightgray,
     gray,
     black
   );
@@ -58,25 +58,44 @@ header{
   z-index: 5;
 }
 
-.bg{
-  position: fixed;
-  font-size: 2500%;
+.word-bg{
+  position:absolute;
   font-weight: bold;
-  color: transparent;
   text-align: center;
   background-size: cover;
+  font-size:8em;
   left: 0;
   right: 0;
-  top:25%;
-  background: url("../GoFish.jpg");
-  background-attachment: ;
-  z-index: 5;
-  height: 100%;
+  bottom: 0;
+  top:5%;
+  height:100%;
+  color:transparent;
+  z-index: 0;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, .75),
+    rgba(128, 128, 128, 0.5),
+    rgba(211, 211, 211, 0.25)
+  );
   background-clip: text;
-  -webkit-background-clip: text;
+  background-attachment:scroll;
+  &.intro{
+    animation: bg-enter-top forwards 1s;
+  }
+  &.exit{
+    animation: bg-leave-bot forwards 1s;
+  }
 }
 
-.intro-content{
+@keyframes bg-leave-bot {
+  from{transform: translateY(0%);}
+  to {transform: translateY(100%);}
+}
+@keyframes bg-enter-top {
+  from{transform: translateY(-100%);}
+  to {transform: translateY(0%);}
+}
+
+.intro.content{
   left:7%;
   width: min(500px,100%);
   z-index: 5;
@@ -94,7 +113,11 @@ header{
 }
 
 .about-me{
-  color:white;
+  color:lightgray;
+}
+
+.content{
+  z-index: 10;
 }
 
 .projects-container{
@@ -156,4 +179,16 @@ header{
   max-height: 150px;
   border-radius: 10px;
   position: relative;
+}
+
+.plans{
+  background-image: linear-gradient(
+    black,
+    gray,
+    lightgray
+  );
+}
+
+.contact-info{
+  background-color: lightgray;
 }
