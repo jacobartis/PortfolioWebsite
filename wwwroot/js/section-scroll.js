@@ -10,15 +10,15 @@ var sectionHeight = 0;
 function handleScroll(event){
   const delta = event.deltaY;
   
-  scroll = Math.min(Math.max(scroll+delta, 0),scrollInterval*sections.length-80);
+  scroll = Math.min(Math.max(scroll+delta/scrollInterval, 0),sections.length-.1);
   
   const currentSection = document.querySelector('.section.active');
   nextSection = null;
 
-  if (scroll<sectionHeight*scrollInterval){
+  if (scroll<sectionHeight){
     nextSection = currentSection.previousElementSibling;
     sectionHeight = Math.max(sectionHeight-1, -1);
-  } else if (scroll>(sectionHeight+1)*scrollInterval){
+  } else if (scroll>(sectionHeight+1)){
     nextSection = currentSection.nextElementSibling;
     sectionHeight = Math.min(sectionHeight+1, sections.length);
   }
@@ -26,14 +26,20 @@ function handleScroll(event){
   console.log(scroll, sectionHeight,scroll/scrollInterval);
 
   scrollBasedElements.forEach((ele) =>{
-    const offset = ele.getAttribute("section")*scrollInterval;
-    const scrollVal = Number(ele.getAttribute("scroll-value"))+offset;
-    console.log(scrollVal);
-    if (scroll>=scrollVal){
-      ele.classList.remove("hidden");
-    }else{
-      ele.classList.add("hidden");
+    const offset = Number(ele.getAttribute("section"));
+    const values = ele.getAttribute("scroll-value").split(",");
+    var index = 0;
+    values.forEach((val =>{
+      const className = ele.getAttribute("scroll-classes").split(",")[index];
+      if (scroll>=Number(val)+offset){
+        ele.classList.add(className);
+      }else{
+        ele.classList.remove(className);
+      }
+      index ++;
+      //console.log(val,className);
     }
+    ));
   });
 
   if (nextSection==null){
@@ -56,9 +62,4 @@ window.scrollTo({
   top:sections[0].offsetTop,
   behavior:"smooth"
 });
-
-scrollBasedElements.forEach((ele) =>{
-  ele.classList.add("hidden");
-});
-
 
