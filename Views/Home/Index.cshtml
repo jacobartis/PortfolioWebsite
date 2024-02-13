@@ -7,59 +7,100 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="intro section">
-    <div class="intro-content">
+    <div class="word-bg scroll-based"
+    scroll-classes = "exit"
+    scroll-value = 1.0
+    section = 0>
+        <h1>JACOB</h1>
+    </div>
+    <div class="intro content">
         <h1>Hi, my name is Jacob.</h1>
         <p>I'm a passionate graduate developer <br> dedicated to creating cool software!</p>
     </div>
     <img class="intro-img" src="jacob-img.jpg" alt="Picture of me.">
 </div>
+
 <div class="about-me section">
-    <h1 class="scroll-based"
-    scroll-value = 160
-    section = 1>Who am I?</h1>
-    <p>I am a recent computer science graduate from Royal Holloway with specialisation in artificial inteligence (AI). 
+    <div class="word-bg scroll-based"
+    scroll-classes = "intro,exit"
+    scroll-value = 0,1
+    section = 1>
+        <h1>ABOUT ME</h1>
+    </div>
+    <div class="content">
+        <h1 
+        scroll-value = .5
+        section = 1>Who am I?</h1>
+        <p>I am a recent computer science graduate from Royal Holloway with specialisation in artificial inteligence (AI). 
         I've got a burrning passion for all things computers and lo.</p>
+    </div>
 </div>
 
 <div class="projects section">
-    <h1>What I've worked on?</h1>
-    <div class="projects-container">
-        <button class="project-button" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-            <h1 class="project-title">GoFish</h1>
-            <div class=project-content>
-                <div class="project-img">
-                    <img src="GoFish.jpg" alt="GoFish project img">
+    <div class="word-bg scroll-based"
+    scroll-classes = "intro,exit"
+    scroll-value = 0,1
+    section = 2>
+        <h1>PROJECTS</h1>
+    </div>
+    <div class="content">
+        <h1>What I've worked on?</h1>
+        <div class="projects-container">
+            <button class="project-button" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                <h1 class="project-title">GoFish</h1>
+                <div class=project-content>
+                    <div class="project-img">
+                        <img src="GoFish.jpg" alt="GoFish project img">
+                    </div>
+                    <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
                 </div>
-                <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
-            </div>
-        </button>
+            </button>
 
-        <button class="project-button" type="button" onclick="location.href='@Url.Action("TimeAttack","Projects")'"/>
-            <h1 class="project-title">Time Attack</h1>
-            <div class=project-content>
-                <div class="project-img">
-                    <img src="TimeAttack.png" alt="TimeAttack project img">
+            <button class="project-button" type="button" onclick="location.href='@Url.Action("TimeAttack","Projects")'"/>
+                <h1 class="project-title">Time Attack</h1>
+                <div class=project-content>
+                    <div class="project-img">
+                        <img src="TimeAttack.png" alt="TimeAttack project img">
+                    </div>
+                    <p class="project-text"><b>Final year project</b>, roguelike topdown shooter and extensive research into the gaming industry.</p>
                 </div>
-                <p class="project-text"><b>Final year project</b>, roguelike topdown shooter and extensive research into the gaming industry.</p>
-            </div>
-        </button>
-        
-        <button class="project-button" type="button" onclick="location.href='@Url.Action("CADLanguage","Projects")'"/>
-            <h1 class="project-title">3D CAD Language</h1>
-            <div class=project-content>
-                <p class="project-text"><b>Programming langauge for 3D CAD.</b></p>
-            </div>
-        </button>
+            </button>
+            
+            <button class="project-button" type="button" onclick="location.href='@Url.Action("CADLanguage","Projects")'"/>
+                <h1 class="project-title">3D CAD Language</h1>
+                <div class=project-content>
+                    <p class="project-text"><b>Programming langauge for 3D CAD.</b></p>
+                </div>
+            </button>
+        </div>
     </div>
 </div>
 
 <div class="plans section">
-    <h1>What I'm doing next</h1>
+    <div class="word-bg scroll-based"
+    scroll-classes = "intro,exit"
+    scroll-value = 0,1
+    section = 3>
+        <h1>PLANS</h1>
+    </div>
+    <div class="content">
+        <h1>What I'm doing next</h1>
+    </div>
 </div>
+
 <div class="contact-info section">
-    <h1>Get in touch</h1>
+    <div class="word-bg scroll-based"
+    scroll-classes = "intro,exit"
+    scroll-value = 0,1
+    section = 4>
+        <h1>CONTACT</h1>
+    </div>
     
+    <div class="content">
+        <h1>Get in touch</h1>
+    </div>
 </div>
 
 
 <script src="~/js/section-scroll.js" asp-append-version="true"></script>
+<script src="~/js/scrolling-bg.js" asp-append-version="true"></script>
