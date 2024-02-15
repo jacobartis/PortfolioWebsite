@@ -21,7 +21,40 @@ function handleScroll(event){
   }
   
   console.log(scroll, sectionHeight,scroll/scrollInterval);
+  updateScrollBased()
+  scrollToSection();
+}
 
+window.addEventListener('wheel', handleScroll);
+sections[0].classList.add('active');
+window.scrollTo({
+  top:sections[0].offsetTop,
+  behavior:"smooth"
+});
+
+window.addEventListener('load', function(){
+  scroll = window.scrollY/scrollInterval;
+  console.log(scroll);
+  updateScrollBased()
+  scrollToSection();
+});
+
+window.addEventListener('resize', function(){
+  updateScrollBased()
+  scrollToSection();
+});
+
+function scrollToSection(){
+  sections.forEach((sec)=>
+  sec.classList.remove('active'));
+  sections[Math.floor(scroll)].classList.add('active');
+  window.scrollTo({
+    top:sections[Math.floor(scroll)].offsetTop,
+    behavior:"smooth"
+  });
+}
+
+function updateScrollBased(){
   scrollBasedElements.forEach((ele) =>{
     const offset = Number(ele.getAttribute("section"));
     const values = ele.getAttribute("scroll-value").split(",");
@@ -34,36 +67,7 @@ function handleScroll(event){
         ele.classList.remove(className);
       }
       index ++;
-      //console.log(val,className);
     }
     ));
   });
-
-  scrollToSection();
-}
-
-window.addEventListener('wheel', handleScroll);
-sections[0].classList.add('active');
-window.scrollTo({
-  top:sections[0].offsetTop,
-  behavior:"smooth"
-});
-
-window.addEventListener('load', function(){
-  scrollToSection();
-});
-
-window.addEventListener('resize', function(){
-  scrollToSection();
-});
-
-function scrollToSection(){
-  sections.forEach((sec)=>
-  sec.classList.remove('active'));
-  sections[Math.floor(scroll)].classList.add('active');
-  window.scrollTo({
-    top:sections[Math.floor(scroll)].offsetTop,
-    behavior:"smooth"
-  });
-  console.log("Scroll");
 }
