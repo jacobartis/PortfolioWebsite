@@ -13,13 +13,10 @@ function handleScroll(event){
   scroll = Math.min(Math.max(scroll+delta/scrollInterval, 0),sections.length-.1);
   
   const currentSection = document.querySelector('.section.active');
-  nextSection = null;
 
   if (scroll<sectionHeight){
-    nextSection = currentSection.previousElementSibling;
     sectionHeight = Math.max(sectionHeight-1, -1);
   } else if (scroll>(sectionHeight+1)){
-    nextSection = currentSection.nextElementSibling;
     sectionHeight = Math.min(sectionHeight+1, sections.length);
   }
   
@@ -42,18 +39,7 @@ function handleScroll(event){
     ));
   });
 
-  if (nextSection==null){
-    return;
-  }
-  if (!nextSection.classList.contains("section")){
-    return;
-  }
-  currentSection.classList.remove("active");
-  nextSection.classList.add("active");
-  window.scrollTo({
-    top:nextSection.offsetTop,
-    behavior:"smooth"
-  });
+  scrollToSection();
 }
 
 window.addEventListener('wheel', handleScroll);
@@ -64,13 +50,20 @@ window.scrollTo({
 });
 
 window.addEventListener('load', function(){
-  scroll = -.2;
+  scrollToSection();
+});
+
+window.addEventListener('resize', function(){
+  scrollToSection();
+});
+
+function scrollToSection(){
   sections.forEach((sec)=>
   sec.classList.remove('active'));
-  sections[0].classList.add('active');
+  sections[Math.floor(scroll)].classList.add('active');
   window.scrollTo({
-    top:sections[0].offsetTop,
+    top:sections[Math.floor(scroll)].offsetTop,
     behavior:"smooth"
   });
-  console.log(scroll);
-});
+  console.log("Scroll");
+}
