@@ -2,7 +2,7 @@
 const sections = document.querySelectorAll(".section");
 const scrollBasedElements = document.querySelectorAll(".scroll-based");
 
-const scrollInterval = 800;
+var scrollInterval = 800;
 
 var scroll = 0;
 var sectionHeight = 0;
@@ -19,9 +19,7 @@ function handleScroll(event){
   } else if (scroll>(sectionHeight+1)){
     sectionHeight = Math.min(sectionHeight+1, sections.length);
   }
-  
-  console.log(scroll, sectionHeight,scroll/scrollInterval);
-  updateScrollBased()
+  updateScrollBased();
   scrollToSection();
 }
 
@@ -34,13 +32,13 @@ window.scrollTo({
 
 window.addEventListener('load', function(){
   scroll = window.scrollY/scrollInterval;
-  console.log(scroll);
-  updateScrollBased()
+  console.log(scroll, window.scrollY, scrollInterval);
+  updateScrollBased();
   scrollToSection();
 });
 
 window.addEventListener('resize', function(){
-  updateScrollBased()
+  updateScrollBased();
   scrollToSection();
 });
 
@@ -52,6 +50,7 @@ function scrollToSection(){
     top:sections[Math.floor(scroll)].offsetTop,
     behavior:"smooth"
   });
+  console.log(scroll);
 }
 
 function updateScrollBased(){
