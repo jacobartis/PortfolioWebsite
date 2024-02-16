@@ -18,7 +18,7 @@
     </div>
     <div class="intro wrapper scroll-based"
     scroll-classes = "shown"
-    scroll-value = .5
+    scroll-value = .25
     section = 0>
         <h2>A <span>passionate</span> graduate developer dedicated to creating cool software!</p>
     </div>
@@ -32,11 +32,15 @@
         <h1>ABOUT ME</h1>
     </div>
     <div class="content title">
-        <h1>Who am I?</h1>
-        <p>I'm graduate computer scientist based near <b>London</b> with years of programming expirence and a real love for puzzles.<br>
-        I've used a wide range of software and languages and am <b>always</b> looking to learn more.<br>
-        And when I'm not programming i'm most likely snapping some shots for my amature photography.
-        </p>
+        <div class="wai-section">
+            <h1>Who am I?</h1>
+            <p>A highly motivated graduate computer scientist based near <b>London</b> with years of programming experience.<br>
+            My keen interest for solving complex puzzles allows me to thrive in dynamic environments that challenge my analytical and creative thinking skills.<br>
+            Computer science has been an amazing medium to express myself, and has allowed me to interact with a range of systems, software, and languages.<br>
+            The limitless possibilites mean there is <b>always</b> something new to learn or fresh ways to enahnce my skills.<br>
+            As for the time not sitting at my desk programming, I enjoy snapping some shots for my amature photography and relaxing with friends.
+            </p>
+        </div>
         <div class="skill-swiper">
             <h2>Core Skills</h2>
             <div class="skill-wrapper swiper-wrapper">
@@ -50,10 +54,13 @@
                     <img class="skill" src="~/languages/cs.png">
                 </div>
                 <div class="swiper-slide">
+                    <img class="skill" src="~/languages/aspdotnet.png">
+                </div>
+                <div class="swiper-slide">
                     <img class="skill" src="~/languages/html.png">
                 </div>
                 <div class="swiper-slide">
-                    <img class="skill" src="~/languages/css.png">
+                    <img class="skill css" src="~/languages/css.png">
                 </div>
                 <div class="swiper-slide">
                     <img class="skill" src="~/languages/js.png">
@@ -77,40 +84,40 @@
         <h1>PROJECTS</h1>
     </div>
     <div class="content">
-        <div class="current wrapper">
-            <h1 class="title">Current Interests</h1>
-            <ul>
-                <li>Web development</li>
-                <li>Web development</li>
-                <li>Web development</li>
-                <li>Web development</li>
-            </ul>
+        <div class="waiut">
+            <h1>What am I up to?</h1>
+            <p>That's a good question that this page will hope to answer.</p>
         </div>
-        <div class="future wrapper">
-            <h1 class="title">My Current Projects</h1>
-            <div class="proj-swiper">
-                <div class="swiper-wrapper">
-                    <button class="proj swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-                        <h1 class="project-title">GoFish</h1>
-                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
-                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
-                    </button>
-                    <button class="proj swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-                        <h1 class="project-title">GoFish</h1>
-                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
-                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
-                    </button>
-                    <button class="proj swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-                        <h1 class="project-title">GoFish</h1>
-                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
-                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
-                    </button>
-                    <div class="swiper-pagination"></div>
+        <div class="current">
+            <h1>Current Interests</h1>
+            <p>Lately i've been working on furthering my knowlage and expirence with AI systems and technologies using PyTorch.<br>
+            I've also been working ASP.NET to develop my fullstack web development skills.</p>
+            <div class="interest-display">
+                <img class="interest" src="~/languages/python.png">
+                <img class="interest" src="~/languages/pytorch.png">
+                <img class="interest" src="~/languages/cs.png">
+                <img class="interest" src="~/languages/aspdotnet.png">
+                <img class="interest" src="~/languages/html.png">
+                <img class="interest css" src="~/languages/css.png">
+                <img class="interest" src="~/languages/js.png">
+            </div>
+            <button class="new-proj" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
+                Checkout my latest projects
+            </button>
+        </div>
+        <div class="proj-swiper">
+            <h1>Example Projects</h1>
+            <div class="proj-wrapper swiper-wrapper">
+                <div class="proj swiper-slide">
+                    test
+                </div>
+                <div class="proj swiper-slide">
+                    test
+                </div>
+                <div class="proj swiper-slide">
+                    test
                 </div>
             </div>
-            <button class="explore-button" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
-                Explore All
-            </button>
         </div>
     </div>
 </div>
