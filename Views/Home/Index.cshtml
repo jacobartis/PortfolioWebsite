@@ -7,13 +7,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700|Lato:400,700|Open+Sans:400,700|Nunito:400,700|Playfair+Display:400,700|Source+Sans+Pro:400,700|Poppins:400,700|Quicksand:400,700|Raleway:400,700&display=swap">
 
 <div class="intro section">
-    
-    <h1>Hi, I'm</h1>
-    <div class="word-bg scroll-based intro"
-    scroll-classes = "intro,exit"
-    scroll-value = 0,1,10
-    section = 0>
-        <h1>JACOB</h1>
+    <div class="intro-container">
+        <h1>Hi, I'm</h1>
+        <div class="word-bg scroll-based intro"
+        scroll-classes = "intro,exit"
+        scroll-value = 0,1
+        section = 0>
+            <h1>JACOB</h1>
+        </div>
     </div>
     <div class="intro wrapper scroll-based"
     scroll-classes = "shown"
@@ -31,11 +32,40 @@
         <h1>ABOUT ME</h1>
     </div>
     <div class="content title">
-        <h1 
-        scroll-value = .5
-        section = 1>Who am I?</h1>
-        <p>I am a recent computer science graduate from Royal Holloway with specialisation in artificial inteligence (AI). 
-        I've got a burrning passion for all things computers and lo.</p>
+        <h1>Who am I?</h1>
+        <p>I'm graduate computer scientist based near <b>London</b> with years of programming expirence and a real love for puzzles.<br>
+        I've used a wide range of software and languages and am <b>always</b> looking to learn more.<br>
+        And when I'm not programming i'm most likely snapping some shots for my amature photography.
+        </p>
+        <div class="skill-swiper">
+            <h2>Core Skills</h2>
+            <div class="skill-wrapper swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/python.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/java.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/cs.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/html.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/css.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/js.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/github.png">
+                </div>
+                <div class="swiper-slide">
+                    <img class="skill" src="~/languages/godot.png">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -47,32 +77,6 @@
         <h1>PROJECTS</h1>
     </div>
     <div class="content">
-        <div class="previous wrapper">
-            <h1 class="title">What I've worked on?</h1>
-            <p>A small selection of my previous projects</p>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-                        <h1 class="project-title">GoFish</h1>
-                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
-                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
-                    </button>
-                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("TimeAttack","Projects")'"/>
-                        <h1 class="project-title">Time Attack</h1>
-                        <img img class="project-img" src="TimeAttack.png" alt="TimeAttack project img">
-                        <p class="project-text"><b>Final year project</b>, roguelike topdown shooter and extensive research into the gaming industry.</p>
-                    </button>
-                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
-                        <h1 class="project-title">GoFish</h1>
-                        <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
-                        <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
-                    </button>
-                </div>
-            </div>
-            <button class="explore-button" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
-                Explore More
-            </button>
-        </div>
         <div class="current wrapper">
             <h1 class="title">Current Interests</h1>
             <ul>
@@ -84,19 +88,19 @@
         </div>
         <div class="future wrapper">
             <h1 class="title">My Current Projects</h1>
-            <div class="swiper">
+            <div class="proj-swiper">
                 <div class="swiper-wrapper">
-                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                    <button class="proj swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
                         <h1 class="project-title">GoFish</h1>
                         <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
                         <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
                     </button>
-                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                    <button class="proj swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
                         <h1 class="project-title">GoFish</h1>
                         <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
                         <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
                     </button>
-                    <button class="swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
+                    <button class="proj swiper-slide" type="button" onclick="location.href='@Url.Action("GoFish","Projects")'"/>
                         <h1 class="project-title">GoFish</h1>
                         <img class="project-img" src="GoFish.jpg" alt="GoFish project img">
                         <p class="project-text"><b>Third place winning hackathon project</b>, discord bot for looking after fish.</p>
@@ -137,3 +141,4 @@
 
 <script src="~/js/section-scroll.js" asp-append-version="true"></script>
 <script src="~/js/swiper.js" asp-append-version="true"></script>
+<script src="~/js/text-shifter.js" asp-append-version="true"></script>
