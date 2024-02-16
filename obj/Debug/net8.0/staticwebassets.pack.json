@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\GoFish.jpg"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\JacobArtis-CV.pdf",
+      "PackagePath": "staticwebassets\\JacobArtis-CV.pdf"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\TimeAttack.png",
       "PackagePath": "staticwebassets\\TimeAttack.png"
     },
@@ -37,12 +41,12 @@
       "PackagePath": "staticwebassets\\galaxy-bg.mp4"
     },
     {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\jacob-img.jpg",
-      "PackagePath": "staticwebassets\\jacob-img.jpg"
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg2.jpg",
+      "PackagePath": "staticwebassets\\galaxy-bg2.jpg"
     },
     {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\scrolling-bg.js",
-      "PackagePath": "staticwebassets\\js\\scrolling-bg.js"
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\jacob-img.jpg",
+      "PackagePath": "staticwebassets\\jacob-img.jpg"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
@@ -51,6 +55,42 @@
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\js\\swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\cs.png",
+      "PackagePath": "staticwebassets\\languages\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\css.png",
+      "PackagePath": "staticwebassets\\languages\\css.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\github.png",
+      "PackagePath": "staticwebassets\\languages\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\godot.png",
+      "PackagePath": "staticwebassets\\languages\\godot.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\html.png",
+      "PackagePath": "staticwebassets\\languages\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\java.png",
+      "PackagePath": "staticwebassets\\languages\\java.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\js.png",
+      "PackagePath": "staticwebassets\\languages\\js.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\python.png",
+      "PackagePath": "staticwebassets\\languages\\python.png"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\LICENSE",
