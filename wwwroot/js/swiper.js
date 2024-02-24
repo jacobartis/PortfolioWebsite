@@ -17,10 +17,10 @@ var projSwiper = new Swiper(".proj-swiper",{
     speed: 1000,
     loop: true,
     rotate: true,
-    slidesPerView:3,
+    slidesPerView:1,
     autoplay: {
         delay: 4000,
         pauseOnMouseEnter: true,
     },
-    spaceBetween:10,
+    spaceBetween:1,
 });
