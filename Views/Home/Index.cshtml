@@ -84,10 +84,6 @@
         <h1>PROJECTS</h1>
     </div>
     <div class="content">
-        <div class="waiut">
-            <h1>What am I up to?</h1>
-            <p>That's a good question that this page will hope to answer.</p>
-        </div>
         <div class="current">
             <h1>Current Interests</h1>
             <p>Lately i've been working on furthering my knowlage and expirence with AI systems and technologies using PyTorch.<br>
@@ -101,23 +97,25 @@
                 <img class="interest css" src="~/languages/css.png">
                 <img class="interest" src="~/languages/js.png">
             </div>
-            <button class="new-proj" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
-                Checkout my latest projects
-            </button>
         </div>
         <div class="proj-swiper">
-            <h1>Example Projects</h1>
+            <h1>Latest Projects</h1>
             <div class="proj-wrapper swiper-wrapper">
-                <div class="proj swiper-slide">
+                <div class="proj-slide swiper-slide">
+                    <button class="proj-slide swiper-slide" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
+                        <img class="proj-img" src="~/GoFish.jpg">
+                    </button>
+                </div>
+                <div class="proj-slide swiper-slide">
                     test
                 </div>
-                <div class="proj swiper-slide">
-                    test
-                </div>
-                <div class="proj swiper-slide">
+                <div class="proj-slide swiper-slide">
                     test
                 </div>
             </div>
+            <button class="new-proj" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
+                View all
+            </button>
         </div>
     </div>
 </div>
