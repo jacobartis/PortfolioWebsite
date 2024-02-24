@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rdpRinuT1nVlA8lyFl3I9vXaV/MvuGQsUtfyGNUgbaQ=",
+  "Hash": "fvBtL92HeIXygwFBX6QzDbwuRS+5+a/U5yaMywhKy+Y=",
   "Source": "PortfolioSite",
   "BasePath": "_content/PortfolioSite",
   "Mode": "Default",
@@ -302,6 +302,25 @@
       "OriginalItemSpec": "wwwroot\\js\\swiper.js"
     },
     {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\aspdotnet.png",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "languages/aspdotnet.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\languages\\aspdotnet.png"
+    },
+    {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\cs.png",
       "SourceId": "PortfolioSite",
       "SourceType": "Discovered",
@@ -452,6 +471,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\languages\\python.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\pytorch.png",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "languages/pytorch.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\languages\\pytorch.png"
     },
     {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

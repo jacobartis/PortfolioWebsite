@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\js\\swiper.js"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\aspdotnet.png",
+      "PackagePath": "staticwebassets\\languages\\aspdotnet.png"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\cs.png",
       "PackagePath": "staticwebassets\\languages\\cs.png"
     },
@@ -91,6 +95,10 @@
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\python.png",
       "PackagePath": "staticwebassets\\languages\\python.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\pytorch.png",
+      "PackagePath": "staticwebassets\\languages\\pytorch.png"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\LICENSE",
