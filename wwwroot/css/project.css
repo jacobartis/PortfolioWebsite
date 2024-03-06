@@ -1,74 +1,106 @@
-.project-container{
-  display:flex;
-  flex-direction:column;
-}
-
-.row{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
-}
-
-.box{
-  background:red;
-  color:white;
-  position:relative;
-  border-color:black;
-  flex-grow:1;
-  border-style: solid;
-  width:10%;
-}
-
-.detail-button{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  height:100%;
-  width:100%;
-  opacity:0;
-  transition: .5s ease;
-}
-
-.detail-button:hover{
-  opacity:1;
-}
-
-.detail-container{
-  background-color:#FFFDD0;
-  transition: .5s ease;
-}
-
-.closed{
-  position:absolute;
-  top:-100px;
-}
-
-.intro{
-  position:relative;
+body{
+  margin: 0px;
+  padding: 0px;
+  background:black;
+  font-family: "Kanit", sans-serif;
+  cursor: none;
+  overflow-x:hidden;
+  height:300vh;
+  width: 100vw;
   display: flex;
-  align-items: center;
-  background: darkgray;
-  background-image: linear-gradient(
-    90deg,
-    gray 30%,
-    darkred 60%
-  );
-  min-height: 100vh;
+  flex-direction: column;
 }
 
-.intro > img{
+.cursor-dot{
+  --size: 25px;
+  mix-blend-mode: difference;
+  width: var(--size);
+  height: var(--size);
   position: absolute;
-  right: 3%;
-  width: 100%;
-  max-width: 200px;
-  z-index: 5;
+  background-color: white;
+  z-index: 100000;
+  border-radius: 100px;
+  pointer-events:none;
 }
 
-.into-content{
+.header{
+  width:100vw;
+  height:70vh;
+  position:relative;
+  z-index: 2;
+  background:black;
+}
+
+.header-content{
+  position:relative;
+  height: 40vh;
+  top:30vh;
+  overflow:hidden;
+}
+
+.header-bg{
   position:absolute;
-  left:7%;
-  width: min(500px,100%);
-  z-index: 5;
+  width:100%;
+  height:100%;
+  transform:translate(100%,0%);
+  background: #36ff;
+  animation: slide-right 1000ms forwards 250ms ease;
+}
+
+@keyframes slide-right{
+  to{
+    transform: translate(0%,0%);
+  }
+}
+
+.header-text{
+  position:absolute;
+  color: black;
+  text-align:center;
+  font-size: clamp(2em,50vh,15em);
+  margin:0px;
+  height: 100vh;
+  width: 100vw;
+  display:grid;
+  align-items:center;
+}
+
+.about{
+  position: relative;
+  overflow-y:hidden;
+  width:100vw;
+  height:100vh;
+}
+
+.about-follower{
+  position:absolute;
+  top:0px;
+  display:grid;
+  align-items:center;
+  width:100vw;
+  height:100vh;
+  color:#DC143C;
+  text-align:center;
+  font-size: clamp(2em,50vh,15em);
+  margin:0px;
+}
+
+.other-section{
+  background-color: blue;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.other-follower{
+  position:absolute;
+  top:0px;
+  display:grid;
+  align-items:center;
+  width:100vw;
+  height:100vh;
+  color:green;
+  text-align:center;
+  font-size: clamp(2em,50vh,15em);
+  margin:0px;
 }
