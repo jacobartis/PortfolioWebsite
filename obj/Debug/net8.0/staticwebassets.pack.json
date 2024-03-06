@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\jacob-img.jpg"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\cursor.js",
+      "PackagePath": "staticwebassets\\js\\cursor.js"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
       "PackagePath": "staticwebassets\\js\\section-scroll.js"
     },
@@ -327,6 +331,14 @@
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\test-man-img.png",
+      "PackagePath": "staticwebassets\\test-man-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\textImg.jpg",
+      "PackagePath": "staticwebassets\\textImg.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PortfolioSite.Microsoft.AspNetCore.StaticWebAssets.props",
