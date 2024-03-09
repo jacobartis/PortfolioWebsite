@@ -337,6 +337,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\me.png",
+      "PackagePath": "staticwebassets\\me.png"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\test-man-img.png",
       "PackagePath": "staticwebassets\\test-man-img.png"
     },

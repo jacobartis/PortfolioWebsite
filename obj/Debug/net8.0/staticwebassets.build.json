@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/CJwceSkUWOsltYOlvCNOrmJxoD6P7TqjOEw4kIRoVs=",
+  "Hash": "A+9YzA2cUXwyIMjxmWPORbSq1wLZtaCju9+X+scONtI=",
   "Source": "PortfolioSite",
   "BasePath": "_content/PortfolioSite",
   "Mode": "Default",
@@ -1611,6 +1611,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\me.png",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "me.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\me.png"
     },
     {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\test-man-img.png",
