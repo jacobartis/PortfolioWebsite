@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\js\\cursor.js"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\follower.js",
+      "PackagePath": "staticwebassets\\js\\follower.js"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
       "PackagePath": "staticwebassets\\js\\section-scroll.js"
     },
@@ -339,6 +343,14 @@
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\textImg.jpg",
       "PackagePath": "staticwebassets\\textImg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves.svg",
+      "PackagePath": "staticwebassets\\waves.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves2.svg",
+      "PackagePath": "staticwebassets\\waves2.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PortfolioSite.Microsoft.AspNetCore.StaticWebAssets.props",

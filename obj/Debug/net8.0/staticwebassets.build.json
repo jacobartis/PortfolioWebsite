@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JGl2VzQmlBqooPa7/ayo6ph6OS7JmxtDhXtNofqIVUQ=",
+  "Hash": "/CJwceSkUWOsltYOlvCNOrmJxoD6P7TqjOEw4kIRoVs=",
   "Source": "PortfolioSite",
   "BasePath": "_content/PortfolioSite",
   "Mode": "Default",
@@ -262,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cursor.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\follower.js",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "js/follower.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\follower.js"
     },
     {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
@@ -1649,6 +1668,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TimeAttack.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves.svg",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "waves.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\waves.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves2.svg",
+      "SourceId": "PortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
+      "BasePath": "_content/PortfolioSite",
+      "RelativePath": "waves2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\waves2.svg"
     }
   ]
 }
