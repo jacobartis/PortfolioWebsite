@@ -48,7 +48,7 @@
 </div>
 <div class="section projects">
     <div class="spacer projects"></div>
-    <div class="sticky-container">
+    <div class="projects sticky-container">
         <h1 class="projects minititle">My Projects</h1>
         <div class="card-container">
             <a class="project-card" asp-action="GoFish" asp-controller="Projects">
@@ -82,34 +82,25 @@
 <div class="section contact">
     <div class="spacer contact"></div>
     <h1 class="subtitle">Reach out!</h1>
-    <h3 class="contact minititle"><span>Email: jacobartis7@gmail.com</span></h3>
-    <h3 class="contact minititle"><span>Mobile: +44 7888 944345</span></h3>
-    <div class="link-container">
-        <a class="link" href="https://www.linkedin.com/in/jacob-artis-556412229/" target="_blank">
-            <div class="background"></div>
-            <div class="content">
-                <h1>Linked-in</h1>
-            </div>
-        </a>
-        <a class="link" href="~/JacobArtis-CV.pdf" target="_blank">
-            <div class="background"></div>
-            <div class="content">
-                <h1>CV</h1>
-            </div>
-        </a>
-        <a class="link" href="https://github.com/jacobartis" target="_blank">
-            <div class="background"></div>
-            <div class="content">
-                <h1>Github</h1>
-            </div>
-        </a>
-        <a class="link" href="https://itch.io/profile/jacobartis" target="_blank">
-            <div class="background"></div>
-            <div class="content">
-                <h1>Itch.io</h1>
-            </div>
-        </a>
-    </div>
+    <a href="javascript:copyText('jacobartis7@gmail.com')">
+        <h3 class="contact minititle"><span>Email: jacobartis7@gmail.com</span></h3>
+    </a>
+    <a href="javascript:copyText('+44 7888 944345')">
+        <h3 class="contact minititle"><span>Mobile: +44 7888 944345</span></h3>
+    </a>
+    <a href="https://www.linkedin.com/in/jacob-artis-556412229/" target="_blank">
+        <h3 class="link contact minititle"><span>Linked-in</span></h3>
+    </a>
+    <a href="~/JacobArtis-CV.pdf" target="_blank">
+        <h3 class="link contact minititle"><span>CV</span></h3>
+    </a>
+    <a href="https://github.com/jacobartis" target="_blank">
+        <h3 class="link contact minititle"><span>Github</span></h3>
+    </a>
+    <a href="https://itch.io/profile/jacobartis" target="_blank">
+        <h3 class="link contact minititle"><span>Itch.io</span></h3>
+    </a>
 </div>
 <script src="~/js/follower.js" asp-append-version="true"></script>
 <script src="~/js/cursor.js" asp-append-version="true"></script>
+<script src="~/js/copy.js" asp-append-version="true"></script>
