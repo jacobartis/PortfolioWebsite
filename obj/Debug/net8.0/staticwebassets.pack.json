@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\PortfolioSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\CADLanguage.png",
+      "PackagePath": "staticwebassets\\CADLanguage.png"
+    },
+    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\GoFish.jpg",
       "PackagePath": "staticwebassets\\GoFish.jpg"
     },
@@ -37,16 +41,16 @@
       "PackagePath": "staticwebassets\\galaxy-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg.mp4",
-      "PackagePath": "staticwebassets\\galaxy-bg.mp4"
-    },
-    {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg2.jpg",
       "PackagePath": "staticwebassets\\galaxy-bg2.jpg"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\jacob-img.jpg",
       "PackagePath": "staticwebassets\\jacob-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\copy.js",
+      "PackagePath": "staticwebassets\\js\\copy.js"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\cursor.js",
@@ -67,46 +71,6 @@
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\swiper.js",
       "PackagePath": "staticwebassets\\js\\swiper.js"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\aspdotnet.png",
-      "PackagePath": "staticwebassets\\languages\\aspdotnet.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\cs.png",
-      "PackagePath": "staticwebassets\\languages\\cs.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\css.png",
-      "PackagePath": "staticwebassets\\languages\\css.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\github.png",
-      "PackagePath": "staticwebassets\\languages\\github.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\godot.png",
-      "PackagePath": "staticwebassets\\languages\\godot.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\html.png",
-      "PackagePath": "staticwebassets\\languages\\html.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\java.png",
-      "PackagePath": "staticwebassets\\languages\\java.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\js.png",
-      "PackagePath": "staticwebassets\\languages\\js.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\python.png",
-      "PackagePath": "staticwebassets\\languages\\python.png"
-    },
-    {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\languages\\pytorch.png",
-      "PackagePath": "staticwebassets\\languages\\pytorch.png"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -341,12 +305,44 @@
       "PackagePath": "staticwebassets\\me.png"
     },
     {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\test-man-img.png",
-      "PackagePath": "staticwebassets\\test-man-img.png"
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\aspdotnet.png",
+      "PackagePath": "staticwebassets\\skills\\aspdotnet.png"
     },
     {
-      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\textImg.jpg",
-      "PackagePath": "staticwebassets\\textImg.jpg"
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\cs.png",
+      "PackagePath": "staticwebassets\\skills\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\css.png",
+      "PackagePath": "staticwebassets\\skills\\css.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\github.png",
+      "PackagePath": "staticwebassets\\skills\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\godot.png",
+      "PackagePath": "staticwebassets\\skills\\godot.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\html.png",
+      "PackagePath": "staticwebassets\\skills\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\java.png",
+      "PackagePath": "staticwebassets\\skills\\java.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\js.png",
+      "PackagePath": "staticwebassets\\skills\\js.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\python.png",
+      "PackagePath": "staticwebassets\\skills\\python.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\pytorch.png",
+      "PackagePath": "staticwebassets\\skills\\pytorch.png"
     },
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves.svg",
@@ -355,6 +351,10 @@
     {
       "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves2.svg",
       "PackagePath": "staticwebassets\\waves2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves3.svg",
+      "PackagePath": "staticwebassets\\waves3.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PortfolioSite.Microsoft.AspNetCore.StaticWebAssets.props",
