@@ -1,149 +1,138 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+@{
+    ViewData["Title"] = "Projects";
 }
-<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700|Lato:400,700|Open+Sans:400,700|Nunito:400,700|Playfair+Display:400,700|Source+Sans+Pro:400,700|Poppins:400,700|Quicksand:400,700|Raleway:400,700&display=swap">
 
-<div class="intro section">
-    <div class="intro-container">
-        <h1>Hi, I'm</h1>
-        <div class="word-bg scroll-based intro"
-        scroll-classes = "intro,exit"
-        scroll-value = 0,1
-        section = 0>
-            <h1>JACOB</h1>
-        </div>
+<link rel="stylesheet" href="~/css/project.css" asp-append-version="true" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<div class="cursor-dot" id="cursor-dot"></div>
+
+<div class = "section header">
+    <div class="header-content">
+        <h1 class="title">Jacob</h1>
+        <h3>Graduate Software Developer</h3>
     </div>
-    <div class="intro wrapper scroll-based"
-    scroll-classes = "shown"
-    scroll-value = .25
-    section = 0>
-        <h2>A <span>passionate</span> graduate developer dedicated to creating cool software!</p>
+    <div class="spacer header">
     </div>
 </div>
-
-<div class="about-me section">
-    <div class="word-bg scroll-based"
-    scroll-classes = "intro,exit"
-    scroll-value = 0,1
-    section = 1>
-        <h1>ABOUT ME</h1>
-    </div>
-    <div class="content title">
-        <div class="wai-section">
-            <h1>Who am I?</h1>
-            <p>A highly motivated graduate computer scientist based near <b>London</b> with years of programming experience.<br>
-            My keen interest for solving complex puzzles allows me to thrive in dynamic environments that challenge my analytical and creative thinking skills.<br>
-            Computer science has been an amazing medium to express myself, and has allowed me to interact with a range of systems, software, and languages.<br>
-            The limitless possibilites mean there is <b>always</b> something new to learn or fresh ways to enahnce my skills.<br>
-            As for the time not sitting at my desk programming, I enjoy snapping some shots for my amature photography and relaxing with friends.
-            </p>
-        </div>
-        <div class="skill-swiper">
-            <h2>Core Skills</h2>
-            <div class="skill-wrapper swiper-wrapper">
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/python.png">
+<div class = "section about">
+    <img class="about-photo" src="~/me.png">
+    <div class="about-wrapper">
+        <div class="about-subtitle">I am</div>
+        <div class="about-container">
+            <div class="about-item">
+                <div class="about-title">Motivated</div>
+                <div class="about-text">
+                    <div class="about-line">
+                        <div class="about-line-inner">
+                            I'm always working on my skills and seaking new technology
+                        </div>
+                    </div>
+                    <div class="about-line">
+                        <div class="about-line-inner">
+                            and new complex problems to solve.
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/java.png">
+            </div>
+            <div class="about-item">
+                <div class="about-title">Graduate</div>
+                <div class="about-text">
+                    <div class="about-line">
+                        <div class="about-line-inner">
+                            I've been exposed to a wide selection of software
+                        </div>
+                    </div>
+                    <div class="about-line">
+                        <div class="about-line-inner">
+                            making me be flexible and always up for a new challenge. 
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/cs.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/aspdotnet.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/html.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="skill css" src="~/languages/css.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/js.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/github.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="skill" src="~/languages/godot.png">
+            </div>
+            <div class="about-item">
+                <div class="about-title">Developer</div>
+                <div class="about-text">
+                    <div class="about-line">
+                        <div class="about-line-inner">
+                            I love creating software and using it to make peoples lives better.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="projects section">
-    <div class="word-bg scroll-based"
-    scroll-classes = "intro,exit"
-    scroll-value = 0,1
-    section = 2>
-        <h1>PROJECTS</h1>
-    </div>
-    <div class="content">
-        <div class="current">
-            <h1>Current Interests</h1>
-            <p>Lately i've been working on furthering my knowlage and expirence with AI systems and technologies using PyTorch.<br>
-            I've also been working ASP.NET to develop my fullstack web development skills.</p>
-            <div class="interest-display">
-                <img class="interest" src="~/languages/python.png">
-                <img class="interest" src="~/languages/pytorch.png">
-                <img class="interest" src="~/languages/cs.png">
-                <img class="interest" src="~/languages/aspdotnet.png">
-                <img class="interest" src="~/languages/html.png">
-                <img class="interest css" src="~/languages/css.png">
-                <img class="interest" src="~/languages/js.png">
-            </div>
+<div class="section projects">
+    <div class="spacer projects"></div>
+    <div class="projects sticky-container">
+        <div class="projects subtitle">My experience</div>
+        <div class="card scroll-container">
+            <a class="project-card" asp-action="GoFish" asp-controller="Projects">
+                <div class="card-bg"></div>
+                <div class="picture"></div>
+                <div class="card-content">
+                    <h1 class="card-title">GoFish</h1>
+                    <p class="description">3rd place winning Hackathon project. <br> Assists fish owners when going on holiday.</p>
+                </div>
+            </a>
+            <a class="project-card" asp-action="CADLanguage" asp-controller="Projects">
+                <div class="card-bg"></div>
+                <div class="picture"></div>
+                <div class="card-content">
+                    <h1 class="card-title">CAD Language</h1>
+                    <p class="description">Custom programming language used for CAD.</p>
+                </div>
+            </a>
+            <a class="project-card" asp-action="TimeAttack" asp-controller="Projects">
+                <div class="card-bg"></div>
+                <div class="picture"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Time Attack</h1>
+                    <p class="description">Project to learn about the gaming industy and create a game focused around AI.</p>
+                </div>
+            </a>
         </div>
-        <div class="proj-swiper">
-            <h1>Latest Projects</h1>
-            <div class="proj-wrapper swiper-wrapper">
-                <div class="proj-slide swiper-slide">
-                    <button class="proj-slide swiper-slide" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
-                        <img class="proj-img" src="~/GoFish.jpg">
-                    </button>
-                </div>
-                <div class="proj-slide swiper-slide">
-                    test
-                </div>
-                <div class="proj-slide swiper-slide">
-                    test
-                </div>
-            </div>
-            <button class="new-proj" type="button" onclick="location.href='@Url.Action("Index","Projects")'"/>
-                View all
-            </button>
+        <div class="software scroll-container">
+            <img src="~/skills/cs.png">
+            <img src="~/skills/aspdotnet.png">
+            <img src="~/skills/java.png">
+            <img src="~/skills/python.png">
+            <img src="~/skills/css.png">
+            <img src="~/skills/html.png">
+            <img src="~/skills/js.png">
+            <img src="~/skills/github.png">
+            <img src="~/skills/godot.png">
         </div>
     </div>
+    <div class="sticky-spacer"></div>
 </div>
-
-<div class="contact section">
-    <div class="word-bg scroll-based"
-    scroll-classes = "intro,exit"
-    scroll-value = 0,1
-    section = 3>
-        <h1>CONTACT</h1>
-    </div>
-    
-    <div class="content">
-        <h1 class="title">Like what you see?</h1>
-        <a class="cv-download" href="JacobArtis-CV.pdf" download="JacobArtis-CV.pdf">Take a memento</a>
-        <div class="wrapper">
-            <h1>Get in touch</h1>
-            <p>Email: JacobArtis7@gmail.com</p>
-            <p>Mobile: +44 7888 944345</p>
-            <h1>Other Places</h1>
-            <p>
-                <a class="link" href="https://www.linkedin.com/in/jacob-artis-556412229/">LinkedIn</a></br>
-                <a class="link" href="https://github.com/jacobartis">GitHub</a></br>
-                <a class="link" href="https://itch.io/profile/jacobartis">Itch.io</a>
-        </div>
-    </div>
+<div class="section contact">
+    <div class="spacer contact"></div>
+    <h1 class="subtitle">Reach out!</h1>
+    <a href="javascript:copyText('jacobartis7@gmail.com')">
+        <h3 class="copy contact minititle"><span>Email: jacobartis7@gmail.com</span></h3>
+    </a>
+    <a href="javascript:copyText('+44 7888 944345')">
+        <h3 class="copy contact minititle"><span>Mobile: +44 7888 944345</span></h3>
+    </a>
+    <a href="https://www.linkedin.com/in/jacob-artis-556412229/" target="_blank">
+        <h3 class="link contact minititle"><span>Linked-in</span></h3>
+    </a>
+    <a href="~/JacobArtis-CV.pdf" target="_blank">
+        <h3 class="link contact minititle"><span>CV</span></h3>
+    </a>
+    <a href="https://github.com/jacobartis" target="_blank">
+        <h3 class="link contact minititle"><span>Github</span></h3>
+    </a>
+    <a href="https://itch.io/profile/jacobartis" target="_blank">
+        <h3 class="link contact minititle"><span>Itch.io</span></h3>
+    </a>
 </div>
-
-<script src="~/js/section-scroll.js" asp-append-version="true"></script>
-<script src="~/js/swiper.js" asp-append-version="true"></script>
-<script src="~/js/text-shifter.js" asp-append-version="true"></script>
+<script src="~/js/follower.js" asp-append-version="true"></script>
+<script src="~/js/cursor.js" asp-append-version="true"></script>
+<script src="~/js/copy.js" asp-append-version="true"></script>
