@@ -22,9 +22,30 @@ function UpdatePos(e){
   cursor.style.top = (lastY+window.scrollY)+"px";
 }
 
-for(const link of document.getElementsByClassName("hover")){
+for(const link of document.getElementsByClassName("link")){
+  link.addEventListener("mouseenter", function(e){
+    cursor.innerHTML = "<h1>Open<h1>";
+    cursor.classList.add("activeHover");
+  })
+  link.addEventListener("mouseleave", function(e){
+    cursor.innerHTML = "";
+    cursor.classList.remove("activeHover");
+  })
+}
+for(const link of document.getElementsByClassName("project-card")){
   link.addEventListener("mouseenter", function(e){
     cursor.innerHTML = "<h1>View<h1>";
+    cursor.classList.add("activeHover");
+  })
+  link.addEventListener("mouseleave", function(e){
+    cursor.innerHTML = "";
+    cursor.classList.remove("activeHover");
+  })
+}
+
+for(const link of document.getElementsByClassName("copy")){
+  link.addEventListener("mouseenter", function(e){
+    cursor.innerHTML = "<h1>Copy<h1>";
     cursor.classList.add("activeHover");
   })
   link.addEventListener("mouseleave", function(e){
