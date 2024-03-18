@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Projects";
+    ViewData["Title"] = "Jacob Artis";
 }
 
 <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
@@ -9,129 +9,133 @@
 <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
-<div class="cursor-dot" id="cursor-dot"></div>
+<div class="overflow-wrapper">
+    <div class="cursor-dot" id="cursor-dot"></div>
 
-<div class = "section header">
-    <div class="header-content">
-        <h1 class="title">Jacob</h1>
-        <h3>Graduate Software Developer</h3>
+    <div class = "section header">
+        <div class="header-content">
+            <h1 class="title">Jacob</h1>
+            <h3>Graduate Software Developer</h3>
+        </div>
+        <div class="spacer header">
+        </div>
     </div>
-    <div class="spacer header">
-    </div>
-</div>
-<div class = "section about">
-    <img class="about-photo" src="~/me.png">
-    <div class="about-wrapper">
-        <div class="about-subtitle">I am a</div>
-        <div class="about-container">
-            <div class="about-item">
-                <div class="about-title">Motivated</div>
-                <div class="about-text">
-                    <div class="about-line">
-                        <div class="about-line-inner">
-                            I'm always working on my skills, seeking new technology
+    <div class = "section about">
+        <img class="about-photo" src="~/me.png">
+        <div class="about-wrapper">
+            <div class="about-subtitle">I am a</div>
+            <div class="about-container">
+                <div class="about-item">
+                    <div class="about-title">Motivated</div>
+                    <div class="about-text">
+                        <div class="about-line">
+                            <div class="about-line-inner">
+                                I'm always working on my skills, seeking new technology
+                            </div>
                         </div>
-                    </div>
-                    <div class="about-line">
-                        <div class="about-line-inner">
-                            and new complex problems to solve.
+                        <div class="about-line">
+                            <div class="about-line-inner">
+                                and new complex problems to solve.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="about-item">
-                <div class="about-title">Graduate</div>
-                <div class="about-text">
-                    <div class="about-line">
-                        <div class="about-line-inner">
-                            I've been exposed to a wide selection of software
+                <div class="about-item">
+                    <div class="about-title">Graduate</div>
+                    <div class="about-text">
+                        <div class="about-line">
+                            <div class="about-line-inner">
+                                I've been exposed to a wide selection of software
+                            </div>
                         </div>
-                    </div>
-                    <div class="about-line">
-                        <div class="about-line-inner">
-                            making me be flexible and always up for a new challenge. 
+                        <div class="about-line">
+                            <div class="about-line-inner">
+                                making me be flexible and always up for a new challenge. 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="about-item">
-                <div class="about-title">Developer</div>
-                <div class="about-text">
-                    <div class="about-line">
-                        <div class="about-line-inner">
-                            I love creating software and using it to make people's lives better.
+                <div class="about-item">
+                    <div class="about-title">Developer</div>
+                    <div class="about-text">
+                        <div class="about-line">
+                            <div class="about-line-inner">
+                                I love creating software and using it to make people's lives better.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="section projects">
-    <div class="spacer projects"></div>
-    <div class="projects sticky-container">
-        <div class="projects subtitle">My experience</div>
-        <div class="card scroll-container">
-            <a class="project-card" asp-action="GoFish" asp-controller="Projects">
-                <div class="card-bg"></div>
-                <div class="picture"></div>
-                <div class="card-content">
-                    <h1 class="card-title">GoFish</h1>
-                    <p class="description">3rd place winning Hackathon project. <br> Assists fish owners when going on holiday.</p>
-                </div>
-            </a>
-            <a class="project-card" asp-action="CADLanguage" asp-controller="Projects">
-                <div class="card-bg"></div>
-                <div class="picture"></div>
-                <div class="card-content">
-                    <h1 class="card-title">CAD Language</h1>
-                    <p class="description">Custom programming language used for CAD.</p>
-                </div>
-            </a>
-            <a class="project-card" asp-action="TimeAttack" asp-controller="Projects">
-                <div class="card-bg"></div>
-                <div class="picture"></div>
-                <div class="card-content">
-                    <h1 class="card-title">Time Attack</h1>
-                    <p class="description">Project to learn about the gaming industy and create a game focused around AI.</p>
-                </div>
-            </a>
+    <div class="section projects">
+        <div class="spacer projects"></div>
+        <div class="projects sticky-container">
+            <div class="projects subtitle">My experience</div>
+            <div class="card scroll-container">
+                <a class="project-card" asp-action="GoFish" asp-controller="Projects">
+                    <div class="card-bg"></div>
+                    <div class="picture"></div>
+                    <div class="card-content">
+                        <h1 class="card-title">GoFish</h1>
+                        <p class="description">3rd place winning Hackathon project. <br> Assists fish owners when going on holiday.</p>
+                    </div>
+                </a>
+                <a class="project-card" asp-action="CADLanguage" asp-controller="Projects">
+                    <div class="card-bg"></div>
+                    <div class="picture"></div>
+                    <div class="card-content">
+                        <h1 class="card-title">CAD Language</h1>
+                        <p class="description">Custom programming language used for CAD.</p>
+                    </div>
+                </a>
+                <a class="project-card" asp-action="TimeAttack" asp-controller="Projects">
+                    <div class="card-bg"></div>
+                    <div class="picture"></div>
+                    <div class="card-content">
+                        <h1 class="card-title">Time Attack</h1>
+                        <p class="description">Project to learn about the gaming industy and create a game focused around AI.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="software scroll-container">
+                <img src="~/skills/cs.png">
+                <img src="~/skills/aspdotnet.png">
+                <img src="~/skills/java.png">
+                <img src="~/skills/python.png">
+                <img src="~/skills/css.png">
+                <img src="~/skills/html.png">
+                <img src="~/skills/js.png">
+                <img src="~/skills/github.png">
+                <img src="~/skills/godot.png">
+            </div>
         </div>
-        <div class="software scroll-container">
-            <img src="~/skills/cs.png">
-            <img src="~/skills/aspdotnet.png">
-            <img src="~/skills/java.png">
-            <img src="~/skills/python.png">
-            <img src="~/skills/css.png">
-            <img src="~/skills/html.png">
-            <img src="~/skills/js.png">
-            <img src="~/skills/github.png">
-            <img src="~/skills/godot.png">
+        <div class="sticky-spacer"></div>
+    </div>
+    <div class="section contact">
+        <div class="spacer contact"></div>
+        <div class="contact content">
+            <h1 class="subtitle">Reach out!</h1>
+            <a href="javascript:copyText('jacobartis7@gmail.com')">
+                <h3 class="copy contact minititle"><span>Email: jacobartis7@gmail.com</span></h3>
+            </a>
+            <a href="javascript:copyText('+44 7888 944345')">
+                <h3 class="copy contact minititle"><span>Mobile: +44 7888 944345</span></h3>
+            </a>
+            <a href="https://www.linkedin.com/in/jacob-artis-556412229/" target="_blank">
+                <h3 class="link contact minititle"><span>Linked-in</span></h3>
+            </a>
+            <a href="~/JacobArtis-CV.pdf" target="_blank">
+                <h3 class="link contact minititle"><span>CV</span></h3>
+            </a>
+            <a href="https://github.com/jacobartis" target="_blank">
+                <h3 class="link contact minititle"><span>Github</span></h3>
+            </a>
+            <a href="https://itch.io/profile/jacobartis" target="_blank">
+                <h3 class="link contact minititle"><span>Itch.io</span></h3>
+            </a>
         </div>
     </div>
-    <div class="sticky-spacer"></div>
-</div>
-<div class="section contact">
-    <div class="spacer contact"></div>
-    <h1 class="subtitle">Reach out!</h1>
-    <a href="javascript:copyText('jacobartis7@gmail.com')">
-        <h3 class="copy contact minititle"><span>Email: jacobartis7@gmail.com</span></h3>
-    </a>
-    <a href="javascript:copyText('+44 7888 944345')">
-        <h3 class="copy contact minititle"><span>Mobile: +44 7888 944345</span></h3>
-    </a>
-    <a href="https://www.linkedin.com/in/jacob-artis-556412229/" target="_blank">
-        <h3 class="link contact minititle"><span>Linked-in</span></h3>
-    </a>
-    <a href="~/JacobArtis-CV.pdf" target="_blank">
-        <h3 class="link contact minititle"><span>CV</span></h3>
-    </a>
-    <a href="https://github.com/jacobartis" target="_blank">
-        <h3 class="link contact minititle"><span>Github</span></h3>
-    </a>
-    <a href="https://itch.io/profile/jacobartis" target="_blank">
-        <h3 class="link contact minititle"><span>Itch.io</span></h3>
-    </a>
 </div>
 <script src="~/js/guardRails.js" asp-append-version="true"></script>
 <script src="~/js/cursor.js" asp-append-version="true"></script>
