@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "He9kyPvpY0/kUeJDlrbgWV3++0RAtSqJEjp6JMoRWcg=",
+  "Hash": "pcXAKCUyDoAbuihb8+ITpJUDOWdr7ri/eqLFkIEs4uc=",
   "Source": "PortfolioSite",
   "BasePath": "_content/PortfolioSite",
   "Mode": "Default",
@@ -283,12 +283,12 @@
       "OriginalItemSpec": "wwwroot\\js\\cursor.js"
     },
     {
-      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\follower.js",
+      "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\guardRails.js",
       "SourceId": "PortfolioSite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\",
       "BasePath": "_content/PortfolioSite",
-      "RelativePath": "js/follower.js",
+      "RelativePath": "js/guardRails.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,7 +299,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\follower.js"
+      "OriginalItemSpec": "wwwroot\\js\\guardRails.js"
     },
     {
       "Identity": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
