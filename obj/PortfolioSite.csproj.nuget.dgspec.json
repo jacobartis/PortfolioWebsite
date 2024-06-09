@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\PortfolioSite.csproj": {}
+    "C:\\Users\\Jacob Artis\\Documents\\Programming\\PortfolioSite\\PortfolioSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\PortfolioSite.csproj": {
+    "C:\\Users\\Jacob Artis\\Documents\\Programming\\PortfolioSite\\PortfolioSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\PortfolioSite.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob Artis\\Documents\\Programming\\PortfolioSite\\PortfolioSite.csproj",
         "projectName": "PortfolioSite",
-        "projectPath": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\PortfolioSite.csproj",
+        "projectPath": "C:\\Users\\Jacob Artis\\Documents\\Programming\\PortfolioSite\\PortfolioSite.csproj",
         "packagesPath": "C:\\Users\\Jacob Artis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\obj\\",
+        "outputPath": "C:\\Users\\Jacob Artis\\Documents\\Programming\\PortfolioSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\Jacob Artis\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"

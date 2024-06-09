@@ -403,9 +403,6 @@ a{
   background-image: url("../GoFish.jpg");
 }
 .project-card:nth-child(2)>.picture{
-  background-image: url("../CADLanguage.png");
-}
-.project-card:nth-child(3)>.picture{
   background-image: url("../TimeAttack.png");
 }
 

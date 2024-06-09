@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\obj\\Release\\net8.0\\linux-x64\\scopedcss\\projectbundle\\PortfolioSite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PortfolioSite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\CADLanguage.png",
+      "PackagePath": "staticwebassets\\CADLanguage.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\GoFish.jpg",
+      "PackagePath": "staticwebassets\\GoFish.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\JacobArtis-CV.pdf",
+      "PackagePath": "staticwebassets\\JacobArtis-CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\TimeAttack.png",
+      "PackagePath": "staticwebassets\\TimeAttack.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg.jpg",
+      "PackagePath": "staticwebassets\\galaxy-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\galaxy-bg2.jpg",
+      "PackagePath": "staticwebassets\\galaxy-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\jacob-img.jpg",
+      "PackagePath": "staticwebassets\\jacob-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\copy.js",
+      "PackagePath": "staticwebassets\\js\\copy.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\cursor.js",
+      "PackagePath": "staticwebassets\\js\\cursor.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\guardRails.js",
+      "PackagePath": "staticwebassets\\js\\guardRails.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\section-scroll.js",
+      "PackagePath": "staticwebassets\\js\\section-scroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\js\\swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\me.png",
+      "PackagePath": "staticwebassets\\me.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\aspdotnet.png",
+      "PackagePath": "staticwebassets\\skills\\aspdotnet.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\cs.png",
+      "PackagePath": "staticwebassets\\skills\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\css.png",
+      "PackagePath": "staticwebassets\\skills\\css.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\github.png",
+      "PackagePath": "staticwebassets\\skills\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\godot.png",
+      "PackagePath": "staticwebassets\\skills\\godot.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\html.png",
+      "PackagePath": "staticwebassets\\skills\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\java.png",
+      "PackagePath": "staticwebassets\\skills\\java.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\js.png",
+      "PackagePath": "staticwebassets\\skills\\js.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\python.png",
+      "PackagePath": "staticwebassets\\skills\\python.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\skills\\pytorch.png",
+      "PackagePath": "staticwebassets\\skills\\pytorch.png"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves.svg",
+      "PackagePath": "staticwebassets\\waves.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves2.svg",
+      "PackagePath": "staticwebassets\\waves2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jacob Artis\\Documents\\PortfolioSite\\wwwroot\\waves3.svg",
+      "PackagePath": "staticwebassets\\waves3.svg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.PortfolioSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.build.PortfolioSite.props",
+      "PackagePath": "build\\PortfolioSite.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.buildMultiTargeting.PortfolioSite.props",
+      "PackagePath": "buildMultiTargeting\\PortfolioSite.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.buildTransitive.PortfolioSite.props",
+      "PackagePath": "buildTransitive\\PortfolioSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
